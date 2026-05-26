@@ -1,0 +1,24 @@
+# https://esphome.io/components/climate/pid/#autotuning
+
+[23:22:29.433][I][pid.autotune:124]: Console Fan Thermostat: PID Autotune finished!
+[23:22:29.439][I][pid.autotune:140]: Console Fan Thermostat: PID Autotune:
+[23:22:29.439][I][pid.autotune:140]:   State: Succeeded!
+[23:22:29.439][I][pid.autotune:159]:   All checks passed!
+[23:22:29.439][I][pid.autotune:163]:   Calculated PID parameters ("Ziegler-Nichols PID" rule):
+
+[23:22:29.439][I][pid.autotune:163]:   control_parameters:
+[23:22:29.439][I][pid.autotune:163]:     kp: 1.05097
+[23:22:29.439][I][pid.autotune:163]:     ki: 0.00499
+[23:22:29.439][I][pid.autotune:163]:     kd: 55.33368
+
+[23:22:29.439][I][pid.autotune:163]:   Please copy these values into your YAML configuration! They will reset on the next reboot.
+[23:22:29.443][D][pid.autotune:181]:   Alternative Rules:
+[23:22:29.443][D][pid.autotune:216]:     Rule 'Ziegler-Nichols PI':
+[23:22:29.443][D][pid.autotune:216]:       kp: 0.78823, ki: 0.00225, kd: 0.00000
+[23:22:29.474][D][pid.autotune:216]:     Rule 'Pessen Integral PID':
+[23:22:29.474][D][pid.autotune:216]:       kp: 1.22613, ki: 0.00728, kd: 77.46716
+[23:22:29.479][D][pid.autotune:216]:     Rule 'Some Overshoot PID':
+[23:22:29.479][D][pid.autotune:216]:       kp: 0.58329, ki: 0.00277, kd: 81.89385
+[23:22:29.484][D][pid.autotune:216]:     Rule 'No Overshoot PID':
+[23:22:29.484][D][pid.autotune:216]:       kp: 0.35032, ki: 0.00166, kd: 46.11140
+[23:22:29.490][I][pid.autotune:187]: Console Fan Thermostat: Autotune completed
