@@ -1,3 +1,7 @@
+# enclosure box 9U with on exhaust fan at the top
+# room ambient temperature 21C
+# target temperature 28C bellow the fan
+
 # https://esphome.io/components/climate/pid/#autotuning
 
 [23:22:29.433][I][pid.autotune:124]: Console Fan Thermostat: PID Autotune finished!
