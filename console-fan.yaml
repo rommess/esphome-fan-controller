@@ -25,7 +25,7 @@ api:
 # Allow Over-The-Air updates
 ota:
 - platform: esphome
-  password: !secret ota_password_fan_it
+  encryption:
 
 wifi:
   ssid: !secret wifi_ssid
